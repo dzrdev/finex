@@ -15,7 +15,7 @@
     }
 }
 .motion {
-    animation-duration: 0.6s;
+    animation-duration: 0.5s;
     animation-name: click;
 }
 #cnter {
@@ -53,9 +53,20 @@
     /* 버튼 테두리 제거 */
     border: 0;
     outline: 0;
+    /* 반응 속도 설정 */
+    transition: 0.4s
+}
+#initBtn:hover {
+    background-color: #616161;
 }
 #watch {
     text-align: center;
     font-size: 0.6em;
     color: gray;
+}
+#rec {
+    font-size: 1.5em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
