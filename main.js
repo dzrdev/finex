@@ -11,10 +11,10 @@ function plus() {
     num.innerHTML = localStorage.cnt;
     //애니메이션 재시작
     cnter.classList.remove('motion');
-    void cnter.offsetWidth,
+    void cnter.offsetWidth;
     cnter.classList.add('motion');
     //클릭하는데 걸린 시간 표시
-    divide = time.toString().split('.')
+    divide = time.toString().split('.');
     document.querySelector('#watch').innerHTML = `${divide[0]}.${divide[1].slice(0,2)}s`;
     time = 0;
 }
